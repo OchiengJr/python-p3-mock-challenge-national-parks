@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-import ipdb
+"""Script for debugging the many-to-many relationship classes."""
 
-from classes.many_to_many import NationalPark
-from classes.many_to_many import Visitor
-from classes.many_to_many import Trip
+import ipdb
+from classes.many_to_many import NationalPark, Visitor, Trip
 
 if __name__ == '__main__':
-    print("HELLO! :) let's debug :vibing_potato:")
+    print("HELLO! :) Let's debug!")
 
     ipdb.set_trace()
